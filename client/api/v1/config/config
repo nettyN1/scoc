@@ -1,23 +1,27 @@
 {
-	"target": 2,
-	"email": "lorygeresvsu18@gmail.com",
-	"tg": "https://t.me/scoc_cc",
-	"loginless": 1,
-	"loginless_link": "https://www.scoc.workers.dev/link/OINdM5C1lYQbsFYD?sub=3?lt=2",
-	"code_login": 0,
-	"code_register": 1,
-	"captcha_login": 1,
-	"captcha_register": 1,
-	"captcha_checkin": 1,
-	"notice": 1,
-	"checkin": 1,
-	"line_flag_regex": "",
-	"line_exclude_loc": 0,
-	"payment_config": {
-		"Alipay": "1",
-		"Wechat": "1"
-	},
-	"hosts": [
-		"https://www.scoc.cc/"
-	]
+  "key": "malio_scoc",
+  "target": 2,
+  "email": "lorygeresvsu18@gmail.com",
+  "tg": "https://t.me/scoc_cc",
+  "crisp": "bb1f6859-d79f-441d-936f-570a6a3a3d06",
+  "loginless": 0,
+  "loginless_link": "",
+  "code_login": 0,
+  "code_register": 1,
+  "captcha_login": 1,
+  "captcha_register": 1,
+  "captcha_checkin": 1,
+  "notice": 1,
+  "checkin": 1,
+  "line_flag_regex": "([\\u4e00-\\u9fa5]+)",
+  "line_exclude_loc": 0,
+  "payment_config": {
+    "Alipay": "10",
+    "Wechat": "10"
+  },
+  "malio_plans": 1,
+  "hosts": [
+    "https://www.scoc.cc"
+  ]
 }
+
